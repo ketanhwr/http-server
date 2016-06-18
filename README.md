@@ -4,21 +4,25 @@ A simple HTTP server written in C using UNIX sockets. Supports GET and HEAD requ
 ##Instructions
 1. Install `make`.
 2. Clone this repository using this command:
-```
-git clone https://github.com/ketanhwr/http-server.git
-```
+
+	```
+	git clone https://github.com/ketanhwr/http-server.git
+	```
 3. Run `make`:
-```
-make
-```
+
+	```
+	make
+	```
 4. Run the server:
-```
-[sudo] ./http-server
-```
+
+	```
+	[sudo] ./http-server
+	```
 5. Open your web browser and head on to
-```
-localhost:10000
-```
+
+	```
+	localhost:10000
+	```
 
 ##Features
 - Supports GET and HEAD requests.
