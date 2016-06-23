@@ -21,9 +21,6 @@ char * text_200 = "HTTP/1.1 200 OK\n";
 char * text_404 = "HTTP/1.1 404 Not Found\n";
 char * text_400 = "HTTP/1.1 400 Bad Request\n";
 
-// Headers
-char * content_type = "Content-Type: text/html; charset=ISO-8859-1\n";
-
 /**
  * Function that writes status code along with headers in the given socket file descriptor
  */
@@ -32,7 +29,6 @@ void response(int sock_fd, int status_code)
 	if(status_code == OK)
 	{
 		write(sock_fd, text_200, strlen(text_200));
-		write(sock_fd, content_type, strlen(content_type));
 		write(sock_fd, "\n", 1);
 	}
 	else if(status_code == NOT_FOUND)

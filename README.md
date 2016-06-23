@@ -32,4 +32,4 @@ A simple HTTP server written in C using UNIX sockets. Supports GET and HEAD requ
 ##TODOs
 - Serving multiple clients at once using multi-threading.
 - Adding option to change ROOT directory and PORT number by passing them as arguments.
-- Show image files (.jpg/.png) files as well when opened.
+- ~~Show image files (.jpg/.png) files as well when opened.~~
