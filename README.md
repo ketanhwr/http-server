@@ -1,4 +1,4 @@
-# HTTP Server
+# HTTP Server [![Build Status](https://travis-ci.org/ketanhwr/http-server.svg?branch=master)](https://travis-ci.org/ketanhwr/http-server)
 A simple HTTP server written in C using UNIX sockets. Supports GET and HEAD requests.
 
 ##Instructions
