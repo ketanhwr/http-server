@@ -1,7 +1,7 @@
 # HTTP Server [![Build Status](https://travis-ci.org/ketanhwr/http-server.svg?branch=master)](https://travis-ci.org/ketanhwr/http-server)
 A simple HTTP server written in C using UNIX sockets. Supports GET and HEAD requests.
 
-##Instructions
+## Instructions
 1. Install `make`.
 2. Clone this repository using this command:
 
@@ -24,12 +24,12 @@ A simple HTTP server written in C using UNIX sockets. Supports GET and HEAD requ
 	localhost:10000
 	```
 
-##Features
+## Features
 - Supports GET and HEAD requests.
 - Looks for the file `index.html` in the current directory and serves it if found.
 - Returns Status Codes `200 (OK)`, `400 (Bad Request)` and `404 (Not Found)`
 
-##TODOs
+## TODOs
 - Serving multiple clients at once using multi-threading.
 - Adding option to change ROOT directory and PORT number by passing them as arguments.
 - ~~Show image files (.jpg/.png) files as well when opened.~~
